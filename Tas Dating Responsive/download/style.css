@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  transition: 0.5s;
+}
+.download-container{
+	positon: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.download-btn{
+	position: relative;
+	background: linear-gradient(135deg, #64b5f6, #f403d1);
+	color: #fff;
+	width: 260px;
+	padding: 18px 0;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-decoration: none;
+	border-radius: 50px;
+	box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+	transition: background 0.3s ease;
+}
+.download-btn:hover{
+	background: linear-gradient(135deg, #f403d1, #64b5f6);
+}
+.download-btn i{
+	margin-left: 5px;
+}
+.countdown{
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.countdown span{
+	color: #2874F3;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+.pleaseWait-text{
+	 font-size: 1.1em;
+	 font-weight: 600;
+	 display: none;
+}
+.manualDownload-text{
+	font-size: 1.1em;
+	font-weight: 600;
+	display: none;
+}
+.manualDownload-link{
+	color: #2874F3;
+	font-weight: 800;
+	text-decoration: none;
+}
